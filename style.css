@@ -20,8 +20,17 @@ body{
   
 }
 
-
-
+.descripcion{
+    margin-bottom:  5px;
+    color: gray;
+}
+.Sexo{
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.precio{
+    font-size: 25px;
+}
 
 
 .productos{
@@ -34,7 +43,7 @@ body{
 
 
 .item{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 
