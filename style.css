@@ -4,15 +4,22 @@
 }
 
 .menu{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 40px;
-    text-align: center;
+    position:fixed;
+   top: 0;
+   width: 100%;
 }
 .menu a{
     text-decoration: none; 
-font-size: 30px;
-color: white;
+font-size: 16px;
+color: rgb(0, 0, 0);
 padding-right: 23px;
+}
+
+.sub{
+margin-top: 5px;
+    padding-left: 69px;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -36,7 +43,7 @@ body{
 .productos{
   display: grid;
   grid-template-columns: repeat(5,5fr);
-  height: 300px;
+
   gap: 5px 5px;
  
 }
@@ -53,14 +60,20 @@ h2{
     margin-top: 30px;
 }
 
+.logo{
+    
+    font-size: 18px;
+    padding-right: 70px;
+    font-weight: bold;
+}
+
 /*footer*/
 .pie{
     background-color: black;
     color:white;
     text-align: center;
     height: 40px;
-    position:absolute;
-    width: 100%;
-   bottom:0 ;
+  
+   bottom:0;
 
 }
