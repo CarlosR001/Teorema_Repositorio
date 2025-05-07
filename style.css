@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none; 
+font-size: 30px;
+
+}
